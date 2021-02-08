@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/maseer-Institute/static/css/main.20589991.chunk.css",
+    "main.js": "/maseer-Institute/static/js/main.10bf2451.chunk.js",
+    "main.js.map": "/maseer-Institute/static/js/main.10bf2451.chunk.js.map",
+    "runtime-main.js": "/maseer-Institute/static/js/runtime-main.2d16095e.js",
+    "runtime-main.js.map": "/maseer-Institute/static/js/runtime-main.2d16095e.js.map",
+    "static/css/2.ebca8e7b.chunk.css": "/maseer-Institute/static/css/2.ebca8e7b.chunk.css",
+    "static/js/2.9e4b7b73.chunk.js": "/maseer-Institute/static/js/2.9e4b7b73.chunk.js",
+    "static/js/2.9e4b7b73.chunk.js.map": "/maseer-Institute/static/js/2.9e4b7b73.chunk.js.map",
+    "index.html": "/maseer-Institute/index.html",
+    "static/css/2.ebca8e7b.chunk.css.map": "/maseer-Institute/static/css/2.ebca8e7b.chunk.css.map",
+    "static/css/main.20589991.chunk.css.map": "/maseer-Institute/static/css/main.20589991.chunk.css.map",
+    "static/js/2.9e4b7b73.chunk.js.LICENSE.txt": "/maseer-Institute/static/js/2.9e4b7b73.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/maseer-Institute/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/App.css": "/maseer-Institute/static/media/homeBg.784903e8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d16095e.js",
+    "static/css/2.ebca8e7b.chunk.css",
+    "static/js/2.9e4b7b73.chunk.js",
+    "static/css/main.20589991.chunk.css",
+    "static/js/main.10bf2451.chunk.js"
+  ]
+}
