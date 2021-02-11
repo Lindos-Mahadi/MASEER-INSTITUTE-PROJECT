@@ -17,7 +17,7 @@ const Course = (props) =>{
     return (
         <React.Fragment>
             <Card className="col-lg-6 col-sm-12">
-                <div className="card" data-aos="zoom-in" data-aos-duration="1000">
+                <div className="card" data-aos="zoom-in" data-aos-duration="500">
                     <div className="card-header">
                         <h4> {props.title} </h4>
                     </div>

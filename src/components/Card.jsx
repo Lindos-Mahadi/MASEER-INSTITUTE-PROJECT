@@ -26,18 +26,15 @@ const Card = () =>{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-white text-justify">
-                            <h3 className="display-3" data-aos="fade-down" data-aos-delay="1000">Learn About Quran</h3>
-                            <p className="lead" style={alignText} data-aos="fade-right" data-aos-delay="1000">
+                            <h3 className="display-3" data-aos="fade-down" data-aos-delay="500">Learn About Quran</h3>
+                            <p className="lead" style={alignText} data-aos="fade-right" data-aos-delay="500">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatibus obcaecati at minus magnam culpa exercitationem libero labore, ab quis deleniti veniam nisi, ea magni nihil repellendus eos ut! Inventore molestiae quos vitae accusantium fuga laborum corporis ea, natus quod sed eos quis blanditiis omnis mollitia reiciendis veritatis quisquam qui?
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                            <br/>
-                            <p className="lead" style={alignText} data-aos="fade-right" data-aos-delay="1000">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatibus obcaecati at minus magnam culpa exercitationem libero labore, ab quis deleniti veniam nisi, ea magni nihil repellendus eos ut! Inventore molestiae quos vitae accusantium fuga laborum corporis ea, natus quod sed eos quis blanditiis omnis mollitia reiciendis veritatis quisquam qui?
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur exercitationem, rerum nobis odit atque commodi! Corporis adipisci architecto vitae saepe!
+                                Dolorum voluptatibus obcaecati at minus magnam culpa exercitationem libero labore, ab quis deleniti veniam nisi, ea magni nihil repellendus eos ut! Inventore molestiae quos vitae accusantium fuga laborum corporis ea, natus quod sed eos quis blanditiis omnis mollitia reiciendis veritatis quisquam qui?
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             </p>
                         </div>
-                        <div className="col-md-6 topic-img" data-aos="flip-left" data-aos-delay="1000">
+                        <div className="col-md-6 topic-img" data-aos="flip-left" data-aos-delay="500">
                             <img className="img-fluid float-right" src={imgUrl} alt="img" />
                         </div>
                     </div>

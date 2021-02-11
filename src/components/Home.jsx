@@ -35,26 +35,29 @@ const Home = () =>{
     return (
         <React.Fragment>
             <section className="home">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-6 mx-auto header">
-                            <div className="head-line text-center">
-                                <h3 className="display-3">Good <span style={cssStyle}> {greeting} </span> Sir </h3>
-                            <h1 data-aos="fade-up" data-aos-delay="1000">It's a Quranic Foundation</h1>
-                            <h2> 
-                            <Typical
-                                    loop={Infinity}
-                                    wrapper='b'
-                                    steps={['Learn Quran,', 2000,
-                                        'Get Jannat.', 2000
-                                ]}
-                                />
-                            </h2>
+                <div className="dark-overlay">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-6 mx-auto header">
+                                <div className="head-line text-center pt-5 mt-5">
+                                    <h3 className="display-3 text-white">Good <span style={cssStyle}> {greeting} </span> Sir </h3>
+                                    <h1 data-aos="fade-up" data-aos-delay="1000" className="text-white">It's a Quranic Foundation</h1>
+                                    <h2 className="text-white"> 
+                                    <Typical
+                                            loop={Infinity}
+                                            wrapper='b'
+                                            steps={['Learn Quran,', 2000,
+                                                'Get Jannat.', 2000
+                                        ]}
+                                        />
+                                    </h2>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
             {/* <Box /> */}
             <Card />
             <CardLogic />
