@@ -9,7 +9,7 @@ const ReactModal = () =>{
 
     return (
         <React.Fragment>
-            <Button variant="info" onClick={handleShow}>Course Registration</Button> 
+            <Button variant="btn btn-success btn-outline-dark btn-lg btn-home" onClick={handleShow}>Course Registration</Button> 
             <Modal show={show} onHide={handleClose} size = "lg" centered >
                 <Modal.Header  closeButton>
                   <Modal.Title> <h3 className="text-center">Submit Your Course Details</h3></Modal.Title>

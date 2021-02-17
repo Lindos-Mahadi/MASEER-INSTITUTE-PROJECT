@@ -6,10 +6,10 @@ import TopicCard from './TopicCard';
 const CardLogic = () =>{
   return(
     <React.Fragment>
-      <section className="card-logic my-5">
+      <section className="card-logic my-5 card-image">
       <div className="container">
-      <h3 className="text-uppercase">Top Cources</h3>
-        <div className="row">
+      <h3 className="text-uppercase py-3" style={{fontWeight:'bold'}}>Top Cources</h3>
+        <div className="row ">
             {
             CData.map((val, index) => {
                 return (

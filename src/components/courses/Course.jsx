@@ -18,7 +18,7 @@ const Course = (props) =>{
         <React.Fragment>
             <Card className="col-lg-6 col-sm-12">
                 <div className="card" data-aos="zoom-in" data-aos-duration="500">
-                    <div className="card-header">
+                    <div className="card-header bg-header">
                         <h4> {props.title} </h4>
                     </div>
                     <div className="card-body">
@@ -47,16 +47,33 @@ export default Course
 
 const Card = styled.div`
     .card{
-        height: 620px;
+        height: 800px;
         padding: 15px;
-        background: #EEEEEE;
+        // background: #EEEEEE;
         margin-bottom: 20px;
         h4{
             font-size: 20px;
         }
-    }
-    .card-header{
-        background: #6C7A89;
-        color: #000;
+        .card-header{
+            background-color: #5B3256;
+            color: #fff;
+            border-radius: 25px 0 25px 0;
+            border-bottom: 2px solid #5B3;
+        }
+        .card-body{
+            background-color: #5B3256;
+            border-radius: 0 25px 0 0;
+            p{
+                font-size:17px;
+            }
+        }
+        .card-body h5{
+            color: #fff;
+            font-weight: bold;
+        }
+        .card-footer button{
+            color: #fff !important;
+                font-weight: bold;
+        }
     }
 `

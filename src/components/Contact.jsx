@@ -9,20 +9,21 @@ const Contact = () =>{
     return (
         <React.Fragment>
             <section className="py-5"></section>
+            <section className="py-4"></section>
                 <div className="contact">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-6">
-                            <h2 className="text-uppercase">contact info</h2>
+                            <h2 className="text-uppercase pt-sm-5">contact info</h2>
                             <p className="lead">Welcome to our Website. We are glad to have you around</p>
                             <hr/>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                 <h4><PhoneEnabledIcon className="mr-4" />Phone</h4>
                                 <h5 className="ml-5">+88010-1010-1010</h5>
                                 </div>
 
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                 <h4><EmailIcon className="mr-4" />Phone</h4>
                                 <h5 className="ml-5">+88010-1010-1010</h5>
                                 </div>
@@ -39,10 +40,10 @@ const Contact = () =>{
                             <div className="row">
                             <Form >
                             <Form.Group as={Row} controlId="formPlaintextPassword">
-                                <Col md="6">
+                                <Col md="6" sm="12 pb-3">
                                     <Form.Control type="text" placeholder="Name *" required />
                                 </Col>
-                                <Col md="6">
+                                <Col md="6" sm="12">
                                     <Form.Control type="text" placeholder="Email *" required />
                                 </Col>
                                 <Col md="12">
