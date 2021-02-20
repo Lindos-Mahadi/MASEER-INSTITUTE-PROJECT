@@ -80,8 +80,11 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #555;
+  color: #fff;
 }
+.dark-overlay {
+  background: rgb(93, 63, 106, 0.9);
+  min-height: 700px; }
 .bg-dark{
   opacity: 0.6;
   background: #000 !important;
@@ -136,6 +139,9 @@ body {
 .con-info{
   font-size: 14px;
 }
+.modal-content{
+  background-color: rgb(93, 63, 106, 0.6);
+}
 .enrollCourse{
   background-color: #fff;
   padding: 10px;
@@ -144,4 +150,7 @@ body {
 }
 .enrollName{
   color: orange;
+}
+.navbar-toggler{
+  background-color: #fff !important;
 }
