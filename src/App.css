@@ -154,3 +154,8 @@ body {
 .navbar-toggler{
   background-color: #fff !important;
 }
+.justify-content-end {
+    justify-content: flex-end !important;
+    margin-right: -250px;
+    margin-top: -20px;
+  }
