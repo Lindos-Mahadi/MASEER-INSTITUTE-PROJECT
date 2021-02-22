@@ -18,15 +18,15 @@ const Navbar = () =>{
                     <div className="collapse navbar-collapse" id="navbarSupport">
                         
                         <ul className="navbar-nav ml-auto">
-                        <div className="d-flex justify-content-end">
-                            <p className="d-none d-md-inline-block"><a className="nav-link con-info" href=""><i className="fa fa-phone"></i> +880 1765-25120</a></p>
-                            <p className="d-none d-md-inline-block"><a className="nav-link con-info" href=""><i className="fa fa-envelope-o"></i> info@maseerinstitute.com</a></p>
-                            <p><a className="nav-link" href=""><i className="fa fa-facebook"></i></a></p>
-                            <p><a className="nav-link" href=""><i className="fa fa-twitter"></i></a></p>
-                            <p><a className="nav-link" href=""><i className="fa fa-instagram"></i></a></p>
-                            <p><a className="nav-link" href=""><i className="fa fa-linkedin"></i></a></p>
-                            <p><a className="nav-link" href=""><i className="fa fa-youtube-play"></i></a></p>
-                        </div>
+                            <div className="d-flex justify-content-end social-list">
+                                <p className="d-lg-inline-block"><a className="nav-link con-info" href=""><i className="fa fa-phone"></i> +880 1765-25120</a></p>
+                                <p className=""><a className="nav-link con-info" href=""><i className="fa fa-envelope-o"></i>  info@maseerinstitute.com</a></p>
+                                <p><a className="nav-link" href=""><i className="fa fa-facebook"></i></a></p>
+                                <p><a className="nav-link" href=""><i className="fa fa-twitter"></i></a></p>
+                                <p><a className="nav-link" href=""><i className="fa fa-instagram"></i></a></p>
+                                <p><a className="nav-link" href=""><i className="fa fa-linkedin"></i></a></p>
+                                <p><a className="nav-link" href=""><i className="fa fa-youtube-play"></i></a></p>
+                            </div>
                             <li className="nav-item active">
                                 <NavLink exact activeClassName="menu_active" className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
                             </li>

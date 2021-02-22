@@ -9,7 +9,6 @@ const Contact = () =>{
     return (
         <React.Fragment>
             <section className="py-5"></section>
-            <section className="py-4"></section>
                 <div className="contact">
                     <div className="dark-overlay">
                     <div className="container">
