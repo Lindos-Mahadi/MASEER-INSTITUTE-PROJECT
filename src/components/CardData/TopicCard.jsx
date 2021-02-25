@@ -24,7 +24,7 @@ const TopicCard = (props) =>{
                     <img src={props.imgSrc} className="img-fluid" style={{height: "250px"}} alt=""/>
                     <div className="card-body">
                         <p className="card-text">{props.text}</p>
-                        <button className="btn btn-success btn-outline-dark btn-sm btn-home">
+                        <button className="btn btn-success btn-sm btn-home">
                         <Link exact className="nav-link text-dark" to="/course">Get More Courses</Link>
                         </button>
                     </div>

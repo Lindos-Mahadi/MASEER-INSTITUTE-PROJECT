@@ -13,7 +13,7 @@ const ReactModal = () =>{
 
     return (
         <React.Fragment>
-            <Button variant="btn btn-success btn-outline-dark btn-lg btn-home" onClick={handleShow}>Enroll Course</Button> 
+            <Button variant="btn btn-success btn-lg btn-home" onClick={handleShow}>Enroll Course</Button> 
             <Modal show={show} onHide={handleClose} size = "lg" centered >
                 <Modal.Header  closeButton>
                   <Modal.Title> <h3 className="text-center">Submit Your Course Details</h3></Modal.Title>
@@ -42,9 +42,16 @@ const ReactModal = () =>{
                                 {/* <Form.Control type="text" placeholder="Course or Semestar Name" required /> */}
                                 <select className="form-control" name="select-profession" id="select-profession" required >
                                   <option value="" disable>Select Course or Semestar Name </option>
-                                  <option value="hacker">Hacker</option>
-                                  <option value="gamer">Gamer</option>
-                                  <option value="develop">Develop</option>
+                                  <option value="hacker">Arabic Language & Quranic Grammar 1st Semester </option>
+                                  <option value="gamer">Arabic Language & Quranic Grammar 2nd Semester </option>
+                                  <option value="develop">Arabic Language & Quranic Grammar 3rd Semester</option>
+                                  <option value="develop">Arabic Language & Quranic Grammar Semester 4 – 6</option>
+                                  <option value="develop">Quran Reading & Reciting program 3 semesters </option>
+                                  <option value="develop">Hifzul Quran Program </option>
+                                  <option value="develop">Fundamental Quranic Grammar 1st Semester </option>
+                                  <option value="develop">Fundamental Quranic Grammar 2nd semester </option>
+                                  <option value="develop">Fundamental Quraic Grammer 3rd semester</option>
+                                  <option value="develop">Advanced Quran Learning Programme</option>
                                 </select>
                               </Col>
                             </Form.Group>
