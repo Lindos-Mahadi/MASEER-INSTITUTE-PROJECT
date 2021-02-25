@@ -34,27 +34,29 @@ const Contact = () =>{
                                 <hr/>
                             </div>
                             <div className="col-12 col-lg-6">
-                                <h2 className="text-uppercase">send a message</h2>
+                                <h2 className="text-uppercase pt-sm-5">send a message</h2>
                                 <p className="lead">Your email address will not be published.Required fields'r marked</p>
                                 <hr/>
-                                <div className="row">
-                                <Form >
-                                <Form.Group as={Row} controlId="formPlaintextPassword">
-                                    <Col md="6" sm="12 pb-3">
-                                        <Form.Control type="text" placeholder="Name *" required />
-                                    </Col>
-                                    <Col md="6" sm="12">
-                                        <Form.Control type="text" placeholder="Email *" required />
-                                    </Col>
-                                    <Col md="12">
-                                        <Form.Control type="text" className="my-3" placeholder="Subject *" required />
-                                    </Col>
-                                    <Form.Group controlId="exampleForm">
-                                        <Form.Control as="textarea" Rows={5} placeholder="Message *" required />
-                                        </Form.Group>
-                                    </Form.Group>
-                                    <Button variant="primary" className="my-2" type="submit">Submit</Button>
-                                </Form>
+                                <div className="contact-section">
+                                    <div className="row">
+                                    <Form >
+                                        <Form.Group as={Row} controlId="formPlaintextPassword">
+                                            <Col md="6" sm="12 pb-3">
+                                                <Form.Control type="text" placeholder="Name *" required />
+                                            </Col>
+                                            <Col md="6" sm="12">
+                                                <Form.Control type="text" placeholder="Email *" required />
+                                            </Col>
+                                            <Col md="12">
+                                                <Form.Control type="text" className="my-3" placeholder="Subject *" required />
+                                            </Col>
+                                            <Form.Group controlId="exampleForm">
+                                                <Form.Control as="textarea" Rows={5} placeholder="Message *" required />
+                                                </Form.Group>
+                                            </Form.Group>
+                                            <Button variant="primary" className="my-2" type="submit">Submit</Button>
+                                        </Form>
+                                    </div>
                                 </div>
                             </div>
                         </div>

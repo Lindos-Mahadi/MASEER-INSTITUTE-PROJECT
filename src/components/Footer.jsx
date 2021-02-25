@@ -17,9 +17,9 @@ import HomeIcon from '@material-ui/icons/Home';
 
 const footerStyle={
   display: 'flex',
-  // justifyContent: 'center',
+  justifyContent: 'center',
   alignItems: 'center',
-  height: '48vh'
+  height: '40vh'
 }
 
 const Footer = () =>{
@@ -38,72 +38,75 @@ const Footer = () =>{
     <React.Fragment>
       <footer id="footer-section" className="footer">
         <div className="container">
-            <div className="row">
-              <div className="col-10 mx-auto">
-                <Nav className="justify-content-center" style={footerStyle} activeKey="/home">
-                    <Nav.Item data-aos="fade-up" data-aos-duration="1000" >
-                      <Nav.Link href="https://www.facebook.com/maseerinstitute/" target="_blank">
-                      <FacebookIcon  />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-down" data-aos-duration="2000">
-                      <Nav.Link href="/contact">
-                      <WhatsAppIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-up" data-aos-duration="1000">
-                      <Nav.Link href="/contact">
-                      <MailOutlineIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-down" data-aos-duration="2000">
-                      <Nav.Link href="/contact">
-                          <AddIcCallIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-up" data-aos-duration="1000">
-                      <Nav.Link href="/contact">
-                          <YouTubeIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-down" data-aos-duration="2000">
-                      <Nav.Link href="/contact">
-                      <InstagramIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-up" data-aos-duration="1000">
-                      <Nav.Link href="/contact">
-                      <PinterestIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-down" data-aos-duration="2000">
-                      <Nav.Link href="/contact">
-                          <LinkedInIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-up" data-aos-duration="1000">
-                      <Nav.Link href="/contact">
-                          <RssFeedIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item data-aos="fade-down" data-aos-duration="2000">
-                      <Nav.Link href="/contact">
-                          <TwitterIcon />
-                      </Nav.Link>
-                    </Nav.Item>
-                  </Nav>
+            <div className="footer-body">
+              <div className="row ">
+                {/* <div className="col-10 mx-auto"> */}
+                  <Nav className="justify-content-center" style={footerStyle} activeKey="/home">
+                      <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="" >
+                        <Nav.Link href="https://www.facebook.com/maseerinstitute/" target="_blank">
+                        <FacebookIcon  />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-down" data-aos-duration="2000" className="d-none d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                        <WhatsAppIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="d-none d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                        <MailOutlineIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-down" data-aos-duration="2000" className="d-none d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                            <AddIcCallIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="d-none d-sm-block d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                            <YouTubeIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-down" data-aos-duration="2000" className="d-none d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                        <InstagramIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="d-none  d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                        <PinterestIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-down" data-aos-duration="2000" className="d-none  d-md-block d-lg-block" >
+                        <Nav.Link href="/contact">
+                            <LinkedInIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="d-none  d-md-block d-lg-block" > 
+                        <Nav.Link href="/contact">
+                            <RssFeedIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item data-aos="fade-down" data-aos-duration="2000" className="" >
+                        <Nav.Link href="/contact">
+                            <TwitterIcon />
+                        </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                {/* </div> */}
               </div>
-            </div>
-            <div className="row">
-              <div className="col-6 address">
-                <h3>Address</h3>
-                <p><HomeIcon /> Mirpur 10, Dhaka-1229.</p>
-                <p><MailOutlineIcon /> info@maseerinstitute.com</p>
-                <p> <AddIcCallIcon /> +88 01717757539</p>
-              </div>
-                <div className="col-6 text-right text-white">
-                <p> {year} @ lindos. All Rights Reserved | Terms and Conditions.</p>
+              {/* <div className="row my-5 "></div> */}
+              <div className="row pt-5">
+                <div className="col-sm-6 address ">
+                  <h3>Address</h3>
+                  <p><HomeIcon /> Mirpur 10, Dhaka-1229.</p>
+                  <p><MailOutlineIcon /> info@maseerinstitute.com</p>
+                  <p> <AddIcCallIcon /> +88 01717757539</p>
                 </div>
+                <div className="col-sm-6 text-right text-white">
+                  <p> {year} @ lindos. All Rights Reserved | Terms and Conditions.</p>
+                </div>
+              </div>
             </div>
         </div>
     </footer>
