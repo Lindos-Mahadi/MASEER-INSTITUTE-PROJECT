@@ -9,8 +9,8 @@ const Contact = () =>{
     return (
         <React.Fragment>
             <section className="py-5"></section>
-                <div className="contact">
-                    <div className="dark-overlay">
+                <section className="contact">
+                    <div className="dark">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-6">
@@ -62,7 +62,7 @@ const Contact = () =>{
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             <GoogleMaps />
         </React.Fragment>
     )

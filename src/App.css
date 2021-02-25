@@ -22,12 +22,6 @@ body {
   position: relative;
   background-position: center;
 }
-.dark-overlay{
-  
-  /* background-color: rgb(214, 32, 32);
-  color: #111;
-  z-index: 555; */
-}
 .dark-overlay {
   background: rgb(93, 63, 106, 0.9);
   min-height: 700px; 
@@ -82,11 +76,13 @@ body {
 }
 .contact{
   /* background-image: url("https://images.unsplash.com/photo-1576983161955-044b3f32d944?ixlib=rb-1.2.1&auto=format&fit=crop&w=1608&q=80"); */
-  background-image: url("https://images.unsplash.com/photo-1525915818695-5b1a033247f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1525915818695-5b1a033247f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
+  background-image: url("./components/img/contact-two.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
+  width: 100%;
 }
 
 .bg-dark{
@@ -152,7 +148,7 @@ body {
   background-color: rgb(93, 63, 106, 0.6);
 }
 .enrollCourse{
-  background-color: #fff;
+  background-color: rgb(93, 63, 106, 0.6);
   padding: 10px;
   border-radius: 5px;
 
@@ -173,13 +169,14 @@ body {
   /* color: red; */
 }
 .contact-section input#formPlaintextPassword.form-control {
-  background-color: #000;
+  background-color: rgb(0, 0, 0, 0.3);
   color: #fff;
   font-weight: bold;
 }
 .contact-section #exampleForm{
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(0, 0, 0, 0.3);
+  /* color: #fff; */
+  color: #000;
   font-weight: bold;
 }
 .contact-section form ::-moz-placeholder{
@@ -253,7 +250,7 @@ body {
   }
   @media only screen and (max-width: 575px){
     #footer-section{
-      height: 60vh !important;
+      height: 65vh !important;
     }
     .navbar-nav .first-item{
       margin-top: 20px;
