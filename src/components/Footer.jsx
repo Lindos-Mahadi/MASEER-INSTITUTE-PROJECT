@@ -104,7 +104,7 @@ const Footer = () =>{
                   <p> <AddIcCallIcon /> +88 01717757539</p>
                 </div>
                 <div className="col-sm-6 text-right text-white">
-                  <p> {year} @ lindos. All Rights Reserved | Terms and Conditions.</p>
+                  <p className="pt-sm-3 pt-md-0"> {year} @ lindos. All Rights Reserved | Terms and Conditions.</p>
                 </div>
               </div>
             </div>

@@ -54,6 +54,18 @@ const Home = () =>{
                                 </div>
                             </div>
                         </div>
+                        <div className="row home-button">
+                            <div className="col-8 mx-auto">
+                                <div className="row">
+                                <div className="col-6 col-md-6">
+                                    <button type="button" class="btn btn-outline-info btn-lg float-right d-none d-md-block">stay with us</button>
+                                    </div>
+                                    <div className="col-sm-12 col-md-6 pt-sm-5 pt-md-0">
+                                    <button type="button" class="btn btn-outline-warning btn-lg btn-two">contact us</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
