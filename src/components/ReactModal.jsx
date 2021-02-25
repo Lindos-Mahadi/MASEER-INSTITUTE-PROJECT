@@ -25,7 +25,7 @@ const ReactModal = () =>{
                             <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">Full Name</Form.Label>
                               <Col md="9 mb-3">
-                                <Form.Control type="text" placeholder="First Name" required />
+                                <Form.Control type="text" placeholder="Name" required />
                               </Col>
                             </Form.Group>
 
@@ -35,7 +35,7 @@ const ReactModal = () =>{
                                 <Form.Control type="text" placeholder="National Id or Passport No" required />
                               </Col>
                             </Form.Group>
-                            
+
                             <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">Course Name</Form.Label>
                               <Col md="9 mb-3">

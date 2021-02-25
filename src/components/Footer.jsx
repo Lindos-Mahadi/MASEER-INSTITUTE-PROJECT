@@ -40,7 +40,7 @@ const Footer = () =>{
         <div className="container">
             <div className="footer-body">
               <div className="row ">
-                {/* <div className="col-10 mx-auto"> */}
+                <div className="col-10 mx-auto">
                   <Nav className="justify-content-center" style={footerStyle} activeKey="/home">
                       <Nav.Item data-aos="fade-up" data-aos-duration="1000" className="" >
                         <Nav.Link href="https://www.facebook.com/maseerinstitute/" target="_blank">
@@ -93,7 +93,7 @@ const Footer = () =>{
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
-                {/* </div> */}
+                </div>
               </div>
               {/* <div className="row my-5 "></div> */}
               <div className="row pt-5">
