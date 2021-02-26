@@ -40,7 +40,7 @@ const Home = () =>{
                         <div className="row">
                             <div className="col-6 mx-auto header">
                                 <div className="head-line text-center pt-5 mt-5">
-                                    <h3 className="display-3 text-white">Good <span style={cssStyle}> {greeting} </span> Sir </h3>
+                                    <h3 className="display-3 text-white mt-sm-5">Good <span style={cssStyle}> {greeting} </span> Sir </h3>
                                     <h1 data-aos="fade-up" data-aos-delay="1000" className="text-white">It's a Quranic Foundation</h1>
                                     <h2 className="text-white"> 
                                     <Typical
@@ -58,10 +58,10 @@ const Home = () =>{
                             <div className="col-8 mx-auto">
                                 <div className="row">
                                 <div className="col-6 col-md-6">
-                                    <button type="button" class="btn btn-outline-info btn-lg float-right d-none d-md-block">stay with us</button>
+                                    <a href="/course" type="button" class="btn btn-outline-info btn-lg float-right d-none d-md-block">stay with us</a>
                                     </div>
-                                    <div className="col-sm-12 col-md-6 pt-sm-5 pt-md-0">
-                                    <button type="button" class="btn btn-outline-warning btn-lg btn-two">contact us</button>
+                                    <div className="col-sm-12 col-md-6 pt-sm-5 pt-md-0 second-button">
+                                    <a href="/contact" type="button" class="btn btn-outline-warning btn-lg btn-two">contact us</a>
                                     </div>
                                 </div>
                             </div>

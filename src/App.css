@@ -259,6 +259,16 @@ body {
     }
   }
   @media only screen and (max-width: 575px){
+    .header .head-line h3{
+      position: absolute;
+      font-size: 20px;
+      margin-top: -34px;
+    }
+    .header .head-line h1{
+      position: absolute;
+      margin: 0;
+      font-size: 16px;
+    }
     #footer-section{
       height: 70vh !important;
     }
@@ -272,5 +282,10 @@ body {
       text-align: center;
       width: 100%;
     }
-    
+  }
+  @media only screen and (max-width: 335px){
+    .header .head-line h2{
+      margin-top: 45px;
+      margin-bottom: -25px;
+    }
   }

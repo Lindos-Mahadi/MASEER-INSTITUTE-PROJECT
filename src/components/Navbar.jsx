@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import logo from '../components/img/logo.png';
+import ReactModal from '../components/EnrollCourse';
 
 const Navbar = () =>{
 
@@ -19,7 +20,7 @@ const Navbar = () =>{
                         
                         <ul className="navbar-nav ml-auto">
                             <div className="d-flex justify-content-end social-list">
-                                <p className="d-none d-sm-block"><a className="nav-link con-info" href=""><i className="fa fa-phone"></i> +880 1765-251201</a></p>
+                                <p className="d-none d-sm-block"><a className="nav-link con-info" href=""><i className="fa fa-phone"></i> +880 1765-25120</a></p>
                                 <p className="d-none d-md-block "><a className="nav-link con-info" href=""><i className="fa fa-envelope-o"></i>  info@maseerinstitute.com</a></p>
                                 <p className="d-none d-sm-block"><a className="nav-link" href=""><i className="fa fa-facebook"></i></a></p>
                                 <p className="d-none d-sm-block"><a className="nav-link" href=""><i className="fa fa-twitter"></i></a></p>
@@ -43,7 +44,8 @@ const Navbar = () =>{
                                 <NavLink exact activeClassName="menu_active" className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact activeClassName="menu_active" className="nav-link enrollCourse" to="#"><span className="enrollName">EnrollCourse</span></NavLink>
+                                {/* <NavLink exact activeClassName="menu_active" className="nav-link enrollCourse" to="#"><span className="enrollName">EnrollCourse</span></NavLink> */}
+                                <NavLink exact activeClassName="menu_active" className="nav-link enrollCourse" to="#"><span className="enrollName"><ReactModal></ReactModal></span></NavLink>
                             </li>
                         </ul>
                     </div>
