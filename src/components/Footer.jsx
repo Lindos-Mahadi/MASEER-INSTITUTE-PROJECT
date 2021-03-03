@@ -99,9 +99,9 @@ const Footer = () =>{
               <div className="row pt-5">
                 <div className="col-sm-6 address ">
                   <h3>Address</h3>
-                  <p><HomeIcon /> Mirpur 10, Dhaka-1229.</p>
+                  <p><HomeIcon />House# 116, Senpara-parbota, Mirpur 10, Dhaka-1216. Bangladesh</p>
                   <p><MailOutlineIcon /> info@maseerinstitute.com</p>
-                  <p> <AddIcCallIcon /> +88 01717757539</p>
+                  <p> <AddIcCallIcon />+8801765-251201</p>
                 </div>
                 <div className="col-sm-6 text-right text-white">
                   <p className="pt-sm-3 pt-md-0"> {year} @ lindos. All Rights Reserved | Terms and Conditions.</p>

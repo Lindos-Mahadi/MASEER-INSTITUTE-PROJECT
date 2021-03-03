@@ -19,7 +19,7 @@ const Contact = () =>{
                                     <hr/>
                                     <div className="row">
                                         <div className="col-12 col-md-6">
-                                        <h4><PhoneEnabledIcon className="mr-4" />Phone</h4>
+                                        <h4><PhoneEnabledIcon className="mr-4" />Mobile</h4>
                                         <h5 className="ml-5">+8801765-251201</h5>
                                         </div>
 
@@ -30,7 +30,7 @@ const Contact = () =>{
                                     </div>
                                     <hr/>
                                     <h2><RoomIcon className="mr-4" />Address</h2>
-                                    <p className="lead ml-5">House# 116, Shenpara-porbota, Mirpur 10, Dhaka-1229. Bangladesh</p>
+                                    <p className="lead ml-5">House# 116, Senpara-parbota, Mirpur 10, Dhaka-1216. Bangladesh</p>
                                     <hr/>
                                 </div>
                                 <div className="col-12 col-lg-6">

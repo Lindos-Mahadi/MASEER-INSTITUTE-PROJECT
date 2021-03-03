@@ -152,12 +152,15 @@ body {
   font-size: 14px;
 }
 .modal-content{
-  background-color: rgb(93, 63, 106, 0.6);
+  background-color: rgb(93, 63, 106, 0.8);
 }
 .enrollCourse{
   background-color: rgb(93, 63, 106, 0.6);
   padding: 10px;
   border-radius: 5px;
+}
+.enroll-course .modal-content{
+  background-color: black;
 }
 .card-header{
   padding: 15px 10px;

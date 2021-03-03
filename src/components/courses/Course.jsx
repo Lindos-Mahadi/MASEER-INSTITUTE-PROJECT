@@ -73,7 +73,8 @@ const Card = styled.div`
         }
         .card-footer button{
             color: #fff !important;
-                font-weight: bold;
+            font-weight: bold;
+
         }
     }
 `
