@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 import ReactModal from '../ReactModal';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
@@ -16,7 +17,7 @@ const Course = (props) =>{
 
     return (
         <React.Fragment>
-            <Card className="col-lg-6 col-sm-12">
+            <Card className="col-lg-6 col-md-12">
                 <div className="card" data-aos="zoom-in" data-aos-duration="500">
                     <div className="card-header bg-header">
                         <h4> {props.title} </h4>
@@ -35,7 +36,10 @@ const Course = (props) =>{
                         <p> {props.pTen} </p>
                     </div>
                     <div className="card-footer">
-                        <ReactModal></ReactModal>
+                    <Link exact className="nav-link text-dark text-center btn btn-success text-white btn-sm" to="/enrollments">
+                            {/* <h3 className="display-6 font-weight-bold">Explorer</h3> */}
+                            Enroll Course
+                        </Link>
                     </div>
                 </div>
             </Card>
@@ -47,7 +51,7 @@ export default Course
 
 const Card = styled.div`
     .card{
-        height: 800px;
+        height: 630px;
         padding: 15px;
         // background: #EEEEEE;
         margin-bottom: 20px;
@@ -62,7 +66,7 @@ const Card = styled.div`
         }
         .card-body{
             background-color: #5B3256;
-            border-radius: 0 25px 0 0;
+            border-radius: 0 25px 0 25px;
             p{
                 font-size:17px;
             }
@@ -71,10 +75,17 @@ const Card = styled.div`
             color: #fff;
             font-weight: bold;
         }
+        .card-footer{
+            background-color: #6C7A89;
+            border-top: none;
+        }
         .card-footer button{
             color: #fff !important;
             font-weight: bold;
 
+        }
+        @media only screen and (max-width: 991px){
+            height: 550px;
         }
     }
 `

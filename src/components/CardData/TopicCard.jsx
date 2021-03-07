@@ -17,16 +17,16 @@ const TopicCard = (props) =>{
     return (
         <React.Fragment>
             <div className="col-lg-4 col-md-6">
-                <div className="card mb-3" data-aos="fade-up" data-aos-duration="500">
+                <div className="card" data-aos="fade-up" data-aos-duration="500">
                     <div className="card-header">
                         <h5 className="card-title">{props.title}</h5>
                     </div>
                     <img src={props.imgSrc} className="img-fluid" style={{height: "250px"}} alt=""/>
                     <div className="card-body">
                         <p className="card-text">{props.text}</p>
-                        <button className="btn btn-success btn-sm btn-home">
+                        {/* <button className="btn btn-success btn-sm btn-home">
                         <Link exact className="nav-link text-dark" to="/course">Get More Courses</Link>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

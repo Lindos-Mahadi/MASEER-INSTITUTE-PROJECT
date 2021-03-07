@@ -10,6 +10,8 @@ import Course from "./components/Course";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Enrollments from "./components/Enrollments";
+import Notice from "./components/Notice";
 
 
 const App = () =>{
@@ -21,6 +23,8 @@ const App = () =>{
           <Route exact path="/course" component={Course} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/enrollments" component={Enrollments} />
+          <Route exact path="/notice" component={Notice} />
           <Redirect to="/" />
         </Switch>
       <Footer />

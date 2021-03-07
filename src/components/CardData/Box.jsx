@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Explore from '../Explore';
 
 const box={
     boxShadow: '10px 5px 20px 0 #89729E, 0 4px 5px 0 #89729E',

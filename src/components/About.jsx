@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import Gallery from './Gallery';
 
 
 const About = () =>{
@@ -34,7 +35,15 @@ const About = () =>{
                     </div>
                 </div>
             </div>
-            <section className="py-5 my-5"></section>
+            <section className="py-5 my-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Gallery />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </React.Fragment>
     )
 }

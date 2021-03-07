@@ -25,7 +25,7 @@ const Contact = () =>{
 
                                         <div className="col-12 col-md-6">
                                         <h4><EmailIcon className="mr-4" />Phone</h4>
-                                        <h5 className="ml-5">+88000-0000-0000</h5>
+                                        <h5 className="ml-5">+8801717-757539</h5>
                                         </div>
                                     </div>
                                     <hr/>

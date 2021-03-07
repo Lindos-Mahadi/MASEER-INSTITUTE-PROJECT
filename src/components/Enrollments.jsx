@@ -1,34 +1,22 @@
-import React, { useState } from 'react'
-import {Button, Col, Form, Modal, Row} from "react-bootstrap";
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
-import "../../node_modules/font-awesome/css/font-awesome.min.css";
-// import "../../"
+import React from 'react'
+import {Button, Group, Label, Col, Form, Modal, Row} from "react-bootstrap";
 
-const ReactModal = () =>{
-    const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+const Enrollments = ()=>{
     return (
         <React.Fragment>
-            <Button variant="btn btn-success btn-home" onClick={handleShow}>Course Enrollment </Button> 
-            <Modal show={show} onHide={handleClose} size = "lg" centered >
-                <Modal.Header  closeButton>
-                  <Modal.Title> <h3 className="text-center">Submit Your Course Details</h3></Modal.Title>
-                </Modal.Header>
-
-                <Modal.Body>
-                    <Col sm="10 mx-auto">
-                      <Form>
-                            <Form.Group as={Row} controlId="formPlaintextPassword">
+            <section className="pt-5"></section>
+            <section className="pt-5"></section>
+            <section className="py-5">
+            <div className="container">
+                <div className="row">
+                    <div className="col-8 mx-auto">
+                        <Form>
+                        <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">Full Name</Form.Label>
                               <Col md="9 mb-3">
                                 <Form.Control type="text" placeholder="Name" required />
                               </Col>
                             </Form.Group>
-
                             <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">National Id or Passport No</Form.Label>
                               <Col md="9 mb-3">
@@ -75,19 +63,32 @@ const ReactModal = () =>{
                                 </Form.Text>
                               </Col>
                             </Form.Group>
-
-                            <Modal.Footer className="mt-3">
-                              <Button variant="secondary" className="float-left" onClick={handleClose}>
-                                  Cancel
-                                </Button>
+                            
+                            {/* <Form.Group as={Row} controlId="formPlaintextPassword">
+                              <Form.Label column md="3"></Form.Label>
+                              <Col md="5 mb-3"></Col>
+                              <Col md="2" >
+                              <Button variant="primary" type="submit"> Cencle </Button>
+                              </Col>
+                              <Col md="2" >
                                 <Button variant="primary" type="submit">Submit</Button>
-                            </Modal.Footer>
+                              </Col>
+                            </Form.Group> */}
+                            <Form.Group as={Row} controlId="formPlaintextPassword">
+                                <Col md="6"></Col>
+                              <Col md="3" >
+                              <Button variant="danger" className="float-right" type="submit"> Cencle </Button>
+                              </Col>
+                              <Col md="3"  >
+                                <Button variant="primary" className="float-right" type="submit">Submit</Button>
+                              </Col>
+                            </Form.Group>
                         </Form>
-
-                    </Col>
-                </Modal.Body>
-            </Modal>
+                    </div>
+                </div>
+            </div>
+            </section>
         </React.Fragment>
     )
 }
-export default ReactModal;
+export default Enrollments;

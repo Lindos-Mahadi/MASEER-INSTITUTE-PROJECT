@@ -7,7 +7,6 @@ import AOS from 'aos';
 import Typical from "react-typical";
 import AnimateBody from './AnimateCounter/AnimateBody';
 
-
 let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = "";

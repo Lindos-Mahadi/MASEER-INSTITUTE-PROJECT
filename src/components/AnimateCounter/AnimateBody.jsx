@@ -8,8 +8,8 @@ function AnimateBody() {
     };
     return (
         <React.Fragment>
-                <section className="counter-section pb-5" style={myStyle}>
-                    <div className="bg-secondary text-center text-white">
+                <section className="counter-section" style={myStyle}>
+                    <div className="bg-secondary text-center text-white py-4">
                         <div className="row h3-tag"> 
                             <div className="col-md-3">
                                 <i className="fa fa-facebook"></i>
