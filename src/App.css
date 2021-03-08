@@ -244,7 +244,7 @@ body {
     .justify-content-end{
       position: absolute;
       top: 65px;
-      right: 20%;
+      right: 35%;
     }
     .nav-item{
       padding-top: 0px;
@@ -306,7 +306,7 @@ body {
     .justify-content-end{
       position: absolute;
       top: 65px;
-      right: 25%;
+      right: 35%;
     }
     .header .head-line h3{
       position: absolute;
@@ -353,6 +353,6 @@ body {
     .justify-content-end{
       position: absolute;
       top: 65px;
-      right: 20%;
+      right: 25%;
     }
   }

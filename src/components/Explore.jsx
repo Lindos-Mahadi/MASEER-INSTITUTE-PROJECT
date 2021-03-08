@@ -10,7 +10,7 @@ const Explore= (props) => {
         <React.Fragment>
             <section className="explorer-section" style={myStyle}>
                 <div className="row">
-                    <div className="col-2 mx-auto">
+                    <div className="col-lg-2 col-md-2 col-12 mx-auto">
                         <Link exact className="nav-link text-dark text-center" to="/course">
                                 <h3 className="display-6 font-weight-bold text-info">Explore</h3>
                         </Link>
