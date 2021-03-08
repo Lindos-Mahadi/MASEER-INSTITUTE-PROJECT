@@ -102,6 +102,9 @@ body {
   background: #000 !important;
   color: #fff;
 }
+.navbar{
+  padding-bottom: .9rem !important;
+}
 .navbar a{
   color: rgb(172, 175, 177) !important;
 }
