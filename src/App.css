@@ -116,6 +116,21 @@ body {
   padding: 10px;
   border-radius: 0 25px 0 25px;
 }
+.navbar-nav{
+  position: relative;
+}
+.justify-content-end{
+  position: absolute;
+  /* margin-left: 820px; */
+  margin-top: -40px;
+  right: 0;
+}
+/* .justify-content-end {
+    justify-content: flex-end !important;
+    margin-right: -250px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+  } */
 .header{
   position: absolute;
   top: 30%;
@@ -192,20 +207,7 @@ body {
 .navbar-toggler{
   background-color: #fff !important;
 }
-.navbar-nav{
-  position: relative;
-}
-.justify-content-end{
-  position: absolute;
-  margin-left: 820px;
-  margin-top: -45px;
-}
-/* .justify-content-end {
-    justify-content: flex-end !important;
-    margin-right: -250px;
-    margin-top: -10px;
-    padding-bottom: 15px;
-  } */
+
 
 .form-control{
   /* color: red; */
@@ -241,8 +243,8 @@ body {
     }
     .justify-content-end{
       position: absolute;
-      margin-left: 120px;
-      top: 85px;
+      top: 65px;
+      right: 20%;
     }
     .nav-item{
       padding-top: 0px;
@@ -303,8 +305,8 @@ body {
     }
     .justify-content-end{
       position: absolute;
-      left: -60px;
-      top: 85px;
+      top: 65px;
+      right: 25%;
     }
     .header .head-line h3{
       position: absolute;
@@ -320,7 +322,7 @@ body {
       height: 70vh !important;
     }
     .navbar-nav .first-item{
-      margin-top: 20px;
+      margin-top: 0px;
     }
     .home h1{
       /* font-size: 20px; */
@@ -344,6 +346,13 @@ body {
       padding-top: 70px;
     }
   }
-  @media only screen and (max-width: 335px){
-    
+  @media only screen and (max-width: 350px){
+    .navbar-nav{
+      position: relative;
+    }
+    .justify-content-end{
+      position: absolute;
+      top: 65px;
+      right: 20%;
+    }
   }
