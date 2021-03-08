@@ -108,7 +108,7 @@ body {
 
 }
 .navbar ul li{
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
 }
 .navbar a{
   color: rgb(172, 175, 177) !important;
