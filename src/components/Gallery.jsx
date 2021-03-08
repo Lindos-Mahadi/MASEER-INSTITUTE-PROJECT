@@ -5,7 +5,7 @@ const Gallery=()=> {
         <React.Fragment>
             <section className="py-5"></section>
             <section className="py-5"></section>
-            <h1>I am Gallery</h1>
+            <h1 className="text-center">Gallery will be uploded soon !!!</h1>
         </React.Fragment>
     )
 }
