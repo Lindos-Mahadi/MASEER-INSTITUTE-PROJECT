@@ -117,8 +117,9 @@ body {
   color: aliceblue !important;
 }
 .social-list .nav-link{
-  padding: 10px !important;
+  padding: 5px !important;
   margin-bottom: -15px;
+  border: 1px solid #5B3256;
 }
 .social-list .nav-link i:hover{
   background-color: #5B3256;
