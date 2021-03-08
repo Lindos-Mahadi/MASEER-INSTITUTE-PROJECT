@@ -104,6 +104,11 @@ body {
 }
 .navbar{
   padding-bottom: .9rem !important;
+  /* padding-top: .9rem !important; */
+
+}
+.navbar ul li{
+  margin-bottom: -20px;
 }
 .navbar a{
   color: rgb(172, 175, 177) !important;
@@ -113,6 +118,7 @@ body {
 }
 .social-list .nav-link{
   padding: 10px !important;
+  margin-bottom: -15px;
 }
 .social-list .nav-link i:hover{
   background-color: #5B3256;
