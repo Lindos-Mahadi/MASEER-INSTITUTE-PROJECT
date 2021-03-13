@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button, Group, Label, Col, Form, Modal, Row} from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
 
 const Enrollments = ()=>{
     return (
@@ -17,12 +18,27 @@ const Enrollments = ()=>{
                                 <Form.Control type="text" placeholder="Name" required />
                               </Col>
                             </Form.Group>
+
                             <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">National Id or Passport No</Form.Label>
                               <Col md="9 mb-3">
                                 <Form.Control type="text" placeholder="National Id or Passport No" required />
                               </Col>
                             </Form.Group>
+
+                            <Form.Group as={Row} controlId="formPlaintextPassword">
+                                  <Form.Label column md="3">Educational Qualification</Form.Label>
+                                  <Col md="9 mb-3">
+                                    <Form.Control type="text" placeholder="Educational Qualification" required />
+                                  </Col>
+                                </Form.Group>
+
+                                <Form.Group as={Row} controlId="formPlaintextPassword">
+                                  <Form.Label column md="3">Profession</Form.Label>
+                                  <Col md="9 mb-3">
+                                    <Form.Control type="text" placeholder="Profession" required />
+                                  </Col>
+                                </Form.Group>
 
                             <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">Course Name</Form.Label>
@@ -41,7 +57,12 @@ const Enrollments = ()=>{
                                   <option value="develop">Fundamental Quraic Grammer 3rd semester</option>
                                   <option value="develop">Advanced Quran Learning Programme</option>
                                 </select>
+                                <Form.Text className="text-muted">
+                                    Please review our courses before selecting a course.
+                                </Form.Text>
+                                <NavLink exact activeClassName="menu_active" className="nav-link float-right" to="/course">Click Here</NavLink>
                               </Col>
+                              
                             </Form.Group>
 
                             <Form.Group as={Row} controlId="formPlaintextPassword">
@@ -63,24 +84,10 @@ const Enrollments = ()=>{
                                 </Form.Text>
                               </Col>
                             </Form.Group>
-                            
-                            {/* <Form.Group as={Row} controlId="formPlaintextPassword">
-                              <Form.Label column md="3"></Form.Label>
-                              <Col md="5 mb-3"></Col>
-                              <Col md="2" >
-                              <Button variant="primary" type="submit"> Cencle </Button>
-                              </Col>
-                              <Col md="2" >
-                                <Button variant="primary" type="submit">Submit</Button>
-                              </Col>
-                            </Form.Group> */}
                             <Form.Group as={Row} controlId="formPlaintextPassword">
-                                <Col md="6"></Col>
-                              <Col md="3" >
-                              <Button variant="danger" className="float-right" type="submit"> Cencle </Button>
-                              </Col>
-                              <Col md="3"  >
-                                <Button variant="primary" className="float-right" type="submit">Submit</Button>
+                              <Col>
+                                <Button variant="primary" className="float-right ml-3" type="submit"> Submit </Button>
+                                <Button variant="danger" className="float-right" type="cancel">Cancel</Button>
                               </Col>
                             </Form.Group>
                         </Form>

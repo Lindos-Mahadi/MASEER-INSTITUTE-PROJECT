@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {NavLink} from "react-router-dom";
 import logo from '../components/img/logo.png';
 import ReactModal from '../components/EnrollCourse';
 
 const Navbar = () =>{
+    // const [clos, getClos] = useState[0];
+    // handleClick()
 
   return(
     <React.Fragment>
@@ -20,7 +22,7 @@ const Navbar = () =>{
                         
                         <ul className="navbar-nav ml-auto">
                             
-                            <li className="nav-item active mt-sm-5 mt-md-0">
+                            <li className="nav-item active mt-sm-5 mt-md-0" >
                                 <NavLink exact activeClassName="menu_active" className="nav-link first-item" to="/">Home <span className="sr-only">(current)</span></NavLink>
                             </li>
                             <li className="nav-item">

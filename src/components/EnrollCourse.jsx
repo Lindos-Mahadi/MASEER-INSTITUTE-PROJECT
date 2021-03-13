@@ -38,6 +38,20 @@ const ReactModal = () =>{
                                 </Form.Group>
 
                                 <Form.Group as={Row} controlId="formPlaintextPassword">
+                                  <Form.Label column md="3">Educational Qualification</Form.Label>
+                                  <Col md="9 mb-3">
+                                    <Form.Control type="text" placeholder="Educational Qualification" required />
+                                  </Col>
+                                </Form.Group>
+
+                                <Form.Group as={Row} controlId="formPlaintextPassword">
+                                  <Form.Label column md="3">Profession</Form.Label>
+                                  <Col md="9 mb-3">
+                                    <Form.Control type="text" placeholder="Profession" required />
+                                  </Col>
+                                </Form.Group>
+
+                                <Form.Group as={Row} controlId="formPlaintextPassword">
                                   <Form.Label column md="3">Course Name</Form.Label>
                                   <Col md="9 mb-3">
                                     {/* <Form.Control type="text" placeholder="Course or Semestar Name" required /> */}
@@ -78,9 +92,10 @@ const ReactModal = () =>{
                                 </Form.Group>
 
                                 <Modal.Footer className="mt-3">
-                                  <Button variant="secondary" className="float-left" onClick={handleClose}>
+                                  {/* <Button variant="secondary" className="float-left" onClick={handleClose}>
                                       Cancel
-                                    </Button>
+                                    </Button> */}
+                                    <Button variant="danger" type="submit">Cancele</Button>
                                     <Button variant="primary" type="submit">Submit</Button>
                                 </Modal.Footer>
                             </Form>
@@ -89,6 +104,7 @@ const ReactModal = () =>{
                     </Modal.Body>
                 </Modal>
             </div>
+            <section className="py5"></section>
         </React.Fragment>
     )
 }
