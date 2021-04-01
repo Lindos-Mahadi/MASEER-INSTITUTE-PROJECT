@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import {NavLink} from "react-router-dom";
-import { NavLink } from 'react-router';
+import {NavLink} from "react-router-dom";
+// import { NavLink } from 'react-router';
 import logo from '../components/img/logo.png';
 import ReactModal from '../components/EnrollCourse';
 import {Navbar, Nav, NavDropdown, to} from 'react-bootstrap';
