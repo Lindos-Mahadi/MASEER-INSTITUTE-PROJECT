@@ -174,11 +174,24 @@ body {
   margin: 0;
   padding: 0;
 }
+.navbar .nav-pills >li >a {
+    color: black;
+ }
+   .navbar .nav-pills > li > a:hover {
+     background-color: gold;
+     color: black;
+ }
+
+.navbar .nav-pills .active {
+   background-color: gold;
+   color:Black ;
+   font-weight:bold;
+}
 .menu_active {
   font-weight: bold;
   border-bottom: 3px solid #565387;
   background-color: rgb(93, 63, 106, 0.8);
-  border-radius: 0 25px 0 25px;
+  border-radius: 0 20px 0 20px;
 }
 .con-info{
   font-size: 14px;

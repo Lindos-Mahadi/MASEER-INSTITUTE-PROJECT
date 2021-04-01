@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Card from './Card';
+import CardHome from './Card';
 import Box from './CardData/Box';
 import CardLogic from './CardData/CardLogic';
 import AOS from 'aos';
@@ -70,7 +70,7 @@ const Home = () =>{
             </section>
             
             {/* <Box /> */}
-            <Card />
+            <CardHome />
             <CardLogic />
             <AnimateBody />
         </React.Fragment>
