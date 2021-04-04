@@ -49,6 +49,12 @@ body {
   color: #fff !important;
   font-weight: bold;
 }
+.card{
+  background: rgb(93, 63, 106, 0.9);
+}
+.card .btn-Link{
+  text-decoration: none !important;
+}
 .explorer-section{
   background-color: rgb(93, 63, 106, 0.6);
   clip-path: polygon(0 100%, 50% 0, 100% 100%, 0 100%);
@@ -173,19 +179,7 @@ body {
 .address p{
   margin: 0;
   padding: 0;
-}
-.navbar .nav-pills >li >a {
-    color: black;
- }
-   .navbar .nav-pills > li > a:hover {
-     background-color: gold;
-     color: black;
- }
-
-.navbar .nav-pills .active {
-   background-color: gold;
-   color:Black ;
-   font-weight:bold;
+ font-weight:bold;
 }
 .menu_active {
   font-weight: bold;
@@ -236,8 +230,11 @@ body {
   padding-top: 20px;
 }
   @media only screen and (max-width: 991px) {
+    .ml-auto{
+      margin-right: auto !important;
+    }
     .navbar-nav .nav-link{
-      padding-left: 15px;
+      padding: 5px;
     }
     .bg-dark {
       background-color: #000 !important;
@@ -249,7 +246,7 @@ body {
     }
     .justify-content-end{
       position: absolute;
-      top: 65px;
+      top: -15px;
       right: 35%;
     }
     .nav-item{
@@ -290,7 +287,7 @@ body {
     }
     .justify-content-end{
       position: absolute;
-      top: 65px;
+      top: -15px;
       right: 35%;
     }
     .header .head-line h3{
@@ -334,7 +331,23 @@ body {
     }
     .justify-content-end{
       position: absolute;
-      top: 65px;
-      right: 25%;
+      top: 108%;
+      right: 35%;
+    }
+    .social-list .nav-link{
+      border: none !important;
+    }
+    .social-list .nav-link i:hover{
+      background-color: #5B3256;
+      padding: 7px;
+      border-radius: 0 25px 0 25px;
+      transition: all ease .6s;
+    }
+  }
+  @media only screen and (max-width: 263px){
+    .justify-content-end{
+      position: absolute;
+      top: 108%;
+      right: 15%;
     }
   }
