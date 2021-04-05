@@ -11,11 +11,11 @@ const NavbarMenu = (props) =>{
   return(
     <React.Fragment>
         <div className="bg-dark fixed-top">
-            <div className="row">
+            <div className="row" style={{height:"96px", borderBottom:"2px solid #5B3256"}}>
                 <div className="col-10 mx-auto">
                 {/* <nav className="navbar navbar-expand-lg navbar-light text-dark" id="navbar">
                     <NavLink className="navbar-brand" to="/"><img className="img-fluid" src={logo} width="60" height="60" /></NavLink> */}
-                    <Navbar collapseOnSelect expand="lg" text="dark">
+                    <Navbar collapseOnSelect expand="lg" text="dark" id="navbar">
                       <Navbar.Brand href="/"><img className="img-fluid" src={logo} width="60" height="60" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 

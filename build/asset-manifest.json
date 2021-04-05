@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MASEER-INSTITUTE-PROJECT/static/css/main.9f72b491.chunk.css",
-    "main.js": "/MASEER-INSTITUTE-PROJECT/static/js/main.5d1bcaa2.chunk.js",
-    "main.js.map": "/MASEER-INSTITUTE-PROJECT/static/js/main.5d1bcaa2.chunk.js.map",
+    "main.css": "/MASEER-INSTITUTE-PROJECT/static/css/main.fd8bb52a.chunk.css",
+    "main.js": "/MASEER-INSTITUTE-PROJECT/static/js/main.8f58cd8a.chunk.js",
+    "main.js.map": "/MASEER-INSTITUTE-PROJECT/static/js/main.8f58cd8a.chunk.js.map",
     "runtime-main.js": "/MASEER-INSTITUTE-PROJECT/static/js/runtime-main.9e0fe6fa.js",
     "runtime-main.js.map": "/MASEER-INSTITUTE-PROJECT/static/js/runtime-main.9e0fe6fa.js.map",
     "static/css/2.55352b0f.chunk.css": "/MASEER-INSTITUTE-PROJECT/static/css/2.55352b0f.chunk.css",
-    "static/js/2.4f3fef57.chunk.js": "/MASEER-INSTITUTE-PROJECT/static/js/2.4f3fef57.chunk.js",
-    "static/js/2.4f3fef57.chunk.js.map": "/MASEER-INSTITUTE-PROJECT/static/js/2.4f3fef57.chunk.js.map",
+    "static/js/2.a0e74dab.chunk.js": "/MASEER-INSTITUTE-PROJECT/static/js/2.a0e74dab.chunk.js",
+    "static/js/2.a0e74dab.chunk.js.map": "/MASEER-INSTITUTE-PROJECT/static/js/2.a0e74dab.chunk.js.map",
     "index.html": "/MASEER-INSTITUTE-PROJECT/index.html",
     "static/css/2.55352b0f.chunk.css.map": "/MASEER-INSTITUTE-PROJECT/static/css/2.55352b0f.chunk.css.map",
-    "static/css/main.9f72b491.chunk.css.map": "/MASEER-INSTITUTE-PROJECT/static/css/main.9f72b491.chunk.css.map",
-    "static/js/2.4f3fef57.chunk.js.LICENSE.txt": "/MASEER-INSTITUTE-PROJECT/static/js/2.4f3fef57.chunk.js.LICENSE.txt",
+    "static/css/main.fd8bb52a.chunk.css.map": "/MASEER-INSTITUTE-PROJECT/static/css/main.fd8bb52a.chunk.css.map",
+    "static/js/2.a0e74dab.chunk.js.LICENSE.txt": "/MASEER-INSTITUTE-PROJECT/static/js/2.a0e74dab.chunk.js.LICENSE.txt",
     "static/media/App.css": "/MASEER-INSTITUTE-PROJECT/static/media/footer.c423ab9f.jpg",
     "static/media/font-awesome.min.css": "/MASEER-INSTITUTE-PROJECT/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/logo.1139c1cd.png": "/MASEER-INSTITUTE-PROJECT/static/media/logo.1139c1cd.png"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.9e0fe6fa.js",
     "static/css/2.55352b0f.chunk.css",
-    "static/js/2.4f3fef57.chunk.js",
-    "static/css/main.9f72b491.chunk.css",
-    "static/js/main.5d1bcaa2.chunk.js"
+    "static/js/2.a0e74dab.chunk.js",
+    "static/css/main.fd8bb52a.chunk.css",
+    "static/js/main.8f58cd8a.chunk.js"
   ]
 }

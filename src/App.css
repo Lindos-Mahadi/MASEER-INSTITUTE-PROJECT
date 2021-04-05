@@ -52,8 +52,8 @@ body {
 .card{
   background: rgb(93, 63, 106, 0.9);
 }
-.card .btn-Link{
-  text-decoration: none !important;
+.btn-link{
+  text-decoration: none;
 }
 .explorer-section{
   background-color: rgb(93, 63, 106, 0.6);
@@ -113,6 +113,12 @@ body {
 }
 .navbar a{
   color: rgb(172, 175, 177) !important;
+}
+.nav-item a:hover{
+  font-weight: bold;
+  border-bottom: 3px solid #565387;
+  background-color: rgb(93, 63, 106, 0.8);
+  border-radius: 0 20px 0 20px;
 }
 .nav-item a{
   color: aliceblue !important;
