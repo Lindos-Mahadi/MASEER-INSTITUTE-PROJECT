@@ -8,7 +8,6 @@ const Explore= (props) => {
     };
     return (
         <React.Fragment>
-            {/* <section className="pt-3"></section> */}
             <section className="explorer-section" style={myStyle}>
                 <div className="row">
                     <div className="col-lg-3 col-md-2 col-12 mx-auto">

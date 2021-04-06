@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import styled from "styled-components";
 import {Link} from "react-router-dom";
-import ReactModal from '../ReactModal';
+// import ReactModal from '../ReactModal';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
 const Course = (props) =>{
@@ -36,8 +36,7 @@ const Course = (props) =>{
                         <p> {props.pTen} </p>
                     </div>
                     <div className="card-footer">
-                    <Link exact className="nav-link text-dark text-center btn btn-success text-white btn-sm" to="/enrollments">
-                            {/* <h3 className="display-6 font-weight-bold">Explorer</h3> */}
+                        <Link exact className="nav-link text-dark text-center btn btn-success text-white btn-sm" to="/enrollments">
                             Enroll Course
                         </Link>
                     </div>

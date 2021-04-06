@@ -11,7 +11,7 @@ const Enrollments = ()=>{
             <div className="container">
                 <div className="row">
                     <div className="col-8 mx-auto">
-                        <Form>
+                        <Form action="https://formspree.io/f/info@maseerinstitute.com" method="post">
                         <Form.Group as={Row} controlId="formPlaintextPassword">
                               <Form.Label column md="3">Full Name</Form.Label>
                               <Col md="9 mb-3">

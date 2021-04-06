@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import {NavLink} from "react-router-dom";
-// import { NavLink } from 'react-router';
 import logo from '../components/img/logo.png';
-import ReactModal from '../components/EnrollCourse';
 import {Navbar, Nav, NavDropdown, to} from 'react-bootstrap';
 
 const NavbarMenu = (props) =>{
@@ -11,10 +9,8 @@ const NavbarMenu = (props) =>{
   return(
     <React.Fragment>
         <div className="bg-dark fixed-top">
-            <div className="row" style={{height:"96px", borderBottom:"2px solid #5B3256"}}>
+            <div className="row">
                 <div className="col-10 mx-auto">
-                {/* <nav className="navbar navbar-expand-lg navbar-light text-dark" id="navbar">
-                    <NavLink className="navbar-brand" to="/"><img className="img-fluid" src={logo} width="60" height="60" /></NavLink> */}
                     <Navbar collapseOnSelect expand="lg" text="dark" id="navbar">
                       <Navbar.Brand href="/"><img className="img-fluid" src={logo} width="60" height="60" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -43,11 +39,11 @@ const NavbarMenu = (props) =>{
                               <div className="d-flex justify-content-end social-list ">
                               <p className="d-none d-sm-block"><a className="nav-link float-right" href="/contact"><i className="fa fa-phone"></i></a></p>
                               <p className="d-none d-sm-block"><a className="nav-link float-right" href="/contact"><i className="fa fa-envelope-o"></i></a></p>
-                              <p className=""><a className="nav-link" href=""><i className="fa fa-facebook"></i></a></p>
-                              <p className="d-none d-sm-block"><a className="nav-link" href=""><i className="fa fa-twitter"></i></a></p>
-                              <p className=""><a className="nav-link" href=""><i className="fa fa-instagram"></i></a></p>
-                              <p className="d-none d-sm-block"><a className="nav-link" href=""><i className="fa fa-linkedin"></i></a></p>
-                              <p className=""><a className="nav-link" href="https://www.youtube.com/watch?v=yMbQFaiQs3A"><i className="fa fa-youtube-play"></i></a></p>
+                              <p className=""><a className="nav-link" href="https://www.facebook.com/maseerinstitute/" target="_blank"><i className="fa fa-facebook"></i></a></p>
+                              <p className="d-none d-sm-block"><a className="nav-link" href="/contact"><i className="fa fa-twitter"></i></a></p>
+                              <p className=""><a className="nav-link" href="/"><i className="fa fa-instagram"></i></a></p>
+                              <p className="d-none d-sm-block"><a className="nav-link" href="/contact"><i className="fa fa-linkedin"></i></a></p>
+                              <p className=""><a className="nav-link" href="/contact"><i className="fa fa-youtube-play"></i></a></p>
                           </div>
                         </Navbar.Collapse>
                     </Navbar>

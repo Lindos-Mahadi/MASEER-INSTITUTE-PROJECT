@@ -23,7 +23,6 @@ const Course = () =>{
                 </div>
             </div>
             <CoursesFunc />
-            {/* <PriceCard /> */}
         </React.Fragment>
     )
 }

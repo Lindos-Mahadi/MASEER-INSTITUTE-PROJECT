@@ -3,7 +3,7 @@ import React from 'react'
 const Notice=()=> {
     return (
         <React.Fragment>
-            <section className="py-5"></section>
+            <section className="py-5 my-5"></section>
             <h1 className="text-center">I am Notce Board Look at me carefully ???</h1>
             <section className="py-3">
                 <div className="container">

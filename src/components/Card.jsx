@@ -162,90 +162,92 @@ const CardHome = () =>{
                                 </div>
                                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                     <div className="card-body">
-                                    Listed below are some concepts to ponder upon before considering any
-                                    path of learning Arabic:
-                                     You must understand Arabic in Arabic.
-                                     Being a self-translator is not the goal
-                                     There is no ‘one book ‘ that will teach you all of what you need to know
-                                    of Arabic.
-                                     Non-Arabs have been learning Arabic for over 1,400 years from Africa
-                                    to Indonesia so it is incorrect to assume that we cannot learn as they did
-                                    in the past.
-                                     You will not learn Arabic by simply taking one part of the plan. What I
-                                    mean is that if you learn grammar only you will not know Arabic. And
-                                    if you learn new vocabulary only you will not really know Arabic.
-                                    Rather you must take all of it.
-                                    Where to begin? That is the question.
+                                        <p className="lead">
+                                            Listed below are some concepts to ponder upon before considering any
+                                            path of learning Arabic:
+                                            <br/> You must understand Arabic in Arabic.
+                                            <br/>- Being a self-translator is not the goal
+                                            <br/>- There is no ‘one book ‘ that will teach you all of what you need to know
+                                            of Arabic.
+                                            <br/>- Non-Arabs have been learning Arabic for over 1,400 years from Africa
+                                            to Indonesia so it is incorrect to assume that we cannot learn as they did
+                                            in the past.
+                                            <br/>- You will not learn Arabic by simply taking one part of the plan. What I
+                                            mean is that if you learn grammar only you will not know Arabic. And
+                                            if you learn new vocabulary only you will not really know Arabic.
+                                            Rather you must take all of it.
+                                            Where to begin? That is the question.
 
-                                    The reality is that it is very difficult to learn Arabic for non–Arabs without
-                                    a good teacher, determination, time, Arabs or Arabic speaking
-                                    brothers/sisters to mix with and learn from association.
+                                            The reality is that it is very difficult to learn Arabic for non–Arabs without
+                                            a good teacher, determination, time, Arabs or Arabic speaking
+                                            brothers/sisters to mix with and learn from association.
 
-                                    The student should now learn basic grammar. The best books in this area
-                                    for beginners are – Fundamental Quranic Grammar (by Maseer Institute),
-                                    Attariqu ilal Arabiyyah, Madina Arabic.
-                                    Fundamental Quranic Grammar (both nahw and sarf) is a small book
-                                    outlining the fundamentals of grammar that are indispensable in
-                                    understanding Arabic whether it is Quranic Arabic or any other aspect of
-                                    Arabic Language. And the other two books mentioned above are very
-                                    good medium for gathering primary vocabulary and foundation of applied
-                                    grammar.
+                                            The student should now learn basic grammar. The best books in this area
+                                            for beginners are – Fundamental Quranic Grammar (by Maseer Institute),
+                                            Attariqu ilal Arabiyyah, Madina Arabic.
+                                            Fundamental Quranic Grammar (both nahw and sarf) is a small book
+                                            outlining the fundamentals of grammar that are indispensable in
+                                            understanding Arabic whether it is Quranic Arabic or any other aspect of
+                                            Arabic Language. And the other two books mentioned above are very
+                                            good medium for gathering primary vocabulary and foundation of applied
+                                            grammar.
 
-                                    After it we prefer ‘At-Tuhfah as-Sanniyyah bi Sharhil-Muqqadimatil-
-                                    Ajrumiyyah’. One should study this book with a good teacher who will
-                                    make him understand the fundamentals of the book without going into
-                                    detailed discussions of grammar issues.
-                                    As we said earlier, learning grammar is not enough, so you must also learn
-                                    how to pick up words to increase your vocabulary. This part is the most
-                                    time consuming, sometimes taking years to develop. Here are some
-                                    practical advises in this regard:
-                                     You must read as much as you can. Start by reading small books on
-                                    different issues in Arabic. Take a notepad and write the new words
-                                    down. When you look up a word in the dictionary, underline it with a
-                                    pencil. If you look up the word again in the future and see that you
-                                    marked it with your pencil, you must memorize that word, as you will
-                                    more than likely see it again and again. Don’t write the meanings of the
-                                    words in English down in your book that you are reading. That is
+                                            After it we prefer ‘At-Tuhfah as-Sanniyyah bi Sharhil-Muqqadimatil-
+                                            Ajrumiyyah’. One should study this book with a good teacher who will
+                                            make him understand the fundamentals of the book without going into
+                                            detailed discussions of grammar issues.
+                                            As we said earlier, learning grammar is not enough, so you must also learn
+                                            how to pick up words to increase your vocabulary. This part is the most
+                                            time consuming, sometimes taking years to develop. Here are some
+                                            practical advises in this regard:
+                                            <br/>- You must read as much as you can. Start by reading small books on
+                                            different issues in Arabic. Take a notepad and write the new words
+                                            down. When you look up a word in the dictionary, underline it with a
+                                            pencil. If you look up the word again in the future and see that you
+                                            marked it with your pencil, you must memorize that word, as you will
+                                            more than likely see it again and again. Don’t write the meanings of the
+                                            words in English down in your book that you are reading. That is
 
-                                    because you only read the meaning and not the actual word in Arabic
-                                    this way.
-                                     You must also learn through listening. In this way you learn how
-                                    Arabic is spoken and how certain ideas are conveyed. The best thing is
-                                    to listen and act as if you understand everything you hear. If you cant
-                                    find a speaker giving a talk then buy some tapes of the Scholars and
-                                    Students of Knowledge. Some of the clearest speakers are Shaykh
-                                    Muhammad al-Uthaymeen, Shaykh Muhammad al-Mukhtaar Ash-
-                                    Shanqeetee, Shaykh Muhammad ali Ash-Shanqeetee, Shaykh
-                                    Muhammad Al Arifi and Shaykh Nabil Iewadi.
-                                     Listen to the Qur&#39;an while attempting to understand.
-                                     Try to understand the Arabic language in Arabic. Don’t be like some
-                                    people who only wish to translate everything into their own native
-                                    tongue. This will take time but it is very important and will cause you to
-                                    understand Arabic as it is.
-                                     Talk as much as you can to those Arabic speakers who can correct you
-                                    and help you in learning. Also increase your fluency by talking in
-                                    Arabic to your course partners.
-                                     The most important thing is to always read. If you don’t read you will
-                                    not gain mastery over the language. You must read even if you don’t
-                                    want to. Reading will give you a glimpse into the various sciences of
-                                    the Deen and increase your vocabulary.
-                                     In the beginning make your primary focus understanding. Most of us
-                                    will know more words that we can even think to mention in a
-                                    conversation with an Arab. The same goes for English.
+                                            because you only read the meaning and not the actual word in Arabic
+                                            this way.
+                                            <br/>- You must also learn through listening. In this way you learn how
+                                            Arabic is spoken and how certain ideas are conveyed. The best thing is
+                                            to listen and act as if you understand everything you hear. If you cant
+                                            find a speaker giving a talk then buy some tapes of the Scholars and
+                                            Students of Knowledge. Some of the clearest speakers are Shaykh
+                                            Muhammad al-Uthaymeen, Shaykh Muhammad al-Mukhtaar Ash-
+                                            Shanqeetee, Shaykh Muhammad ali Ash-Shanqeetee, Shaykh
+                                            Muhammad Al Arifi and Shaykh Nabil Iewadi.
+                                            <br/>- Listen to the Qur&#39;an while attempting to understand.
+                                            <br/>- Try to understand the Arabic language in Arabic. Don’t be like some
+                                            people who only wish to translate everything into their own native
+                                            tongue. This will take time but it is very important and will cause you to
+                                            understand Arabic as it is.
+                                            <br/>- Talk as much as you can to those Arabic speakers who can correct you
+                                            and help you in learning. Also increase your fluency by talking in
+                                            Arabic to your course partners.
+                                            <br/>- The most important thing is to always read. If you don’t read you will
+                                            not gain mastery over the language. You must read even if you don’t
+                                            want to. Reading will give you a glimpse into the various sciences of
+                                            the Deen and increase your vocabulary.
+                                            <br/>- In the beginning make your primary focus understanding. Most of us
+                                            will know more words that we can even think to mention in a
+                                            conversation with an Arab. The same goes for English.
 
-                                     Stay away from non–Arabic books and lectures. For Learning Arabic.
-                                    Because the best way to learn a language is to learn it through the same
+                                            <br/>- Stay away from non–Arabic books and lectures. For Learning Arabic.
+                                            Because the best way to learn a language is to learn it through the same
 
-                                    language. Cutting your ties with non–Arabic books and lectures will
-                                    give you more determination to learn.
-                                    How difficult is Arabic to Learn?
-                                    Depending on your approach to learning Arabic can be a moderately hard
-                                    language to learn if you don’t have the right mindset. You should always try to
-                                    maximize your resources and time for the best learning experience possible.
-                                    All languages evolve over time and Arabic is no exception. To indisputably
-                                    understand the importance of the Arabic language you have to learn the actual
-                                    language yourself to help to receive the full benefit of this amazing language
-                                    later.
+                                            language. Cutting your ties with non–Arabic books and lectures will
+                                            give you more determination to learn.
+                                            How difficult is Arabic to Learn?
+                                            Depending on your approach to learning Arabic can be a moderately hard
+                                            language to learn if you don’t have the right mindset. You should always try to
+                                            maximize your resources and time for the best learning experience possible.
+                                            All languages evolve over time and Arabic is no exception. To indisputably
+                                            understand the importance of the Arabic language you have to learn the actual
+                                            language yourself to help to receive the full benefit of this amazing language
+                                            later.
+                                        </p>
                                 </div>
                                 </div>
                             </div>
@@ -259,25 +261,28 @@ const CardHome = () =>{
                                 </div>
                                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                     <div className="card-body">
-                                        Five Easy techniques to Learn Arabic Rapidly
-                                        Learning to speak Arabic can be quick and easy with our Arabic language
-                                        courses and learning aids. If you are looking for an easy and efficient Arabic
-                                        course then here is the good news. We have what’s right for you. Before you
-                                        know it, you’ll be on your way to learning Arabic fast.
-                                        Learn Arabic fast on the Go
-                                        Having a busy life shouldn’t keep you from trying to learn Arabic fast. We offer
-                                        several Arabic language courses that will allow you to learn to speak Arabic
-                                        while driving, exercising, doing housework, etc. This means you can learn
-                                        Arabic anywhere, anytime. The ease with which you’ll learn Arabic is amazing.
-                                        Can I Really Learn Arabic Fast?
-                                        The answer is YES! Learning Arabic is easier than ever with our full line of
-                                        Arabic language courses and learning aids. Learning Arabic is not as hard as you
-                                        might think. With all the available Arabic resources, you can learn while
-                                        commuting, while watching TV or while sitting in front of the computer. If you
+                                        <p className="lead">
+                                            Five Easy techniques to Learn Arabic Rapidly
+                                            Learning to speak Arabic can be quick and easy with our Arabic language
+                                            courses and learning aids. If you are looking for an easy and efficient Arabic
+                                            course then here is the good news. We have what’s right for you. Before you
+                                            know it, you’ll be on your way to learning Arabic fast.
+                                            Learn Arabic fast on the Go
+                                            Having a busy life shouldn’t keep you from trying to learn Arabic fast. We offer
+                                            several Arabic language courses that will allow you to learn to speak Arabic
+                                            while driving, exercising, doing housework, etc. This means you can learn
+                                            Arabic anywhere, anytime. The ease with which you’ll learn Arabic is amazing.
+                                            Can I Really Learn Arabic Fast?
+                                            The answer is YES! Learning Arabic is easier than ever with our full line of
+                                            Arabic language courses and learning aids. Learning Arabic is not as hard as you
+                                            might think. With all the available Arabic resources, you can learn while
+                                            commuting, while watching TV or while sitting in front of the computer. If you
 
-                                        want to learn to speak Arabic, there is no excuse to not. The world is at our
-                                        fingertips and learning Arabic will help you better communicate with everyone.
-                                        Here are 5 tips to Learn Arabic Fast:
+                                            want to learn to speak Arabic, there is no excuse to not. The world is at our
+                                            fingertips and learning Arabic will help you better communicate with everyone.
+                                            Here are 5 tips to Learn Arabic Fast:
+                                        </p>
+
                                         <p className="lead">
                                             1. Keep setting Objectives
                                             Decide how many minutes each day you are going to set aside for your
@@ -325,22 +330,24 @@ const CardHome = () =>{
                                 </div>
                                 <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                     <div className="card-body">
-                                    As for an advanced study of Arabic, one must traverse the following path:
-                                     In Arabic Language – Qassasul Ambiya, Alarabiyyatu linnashyiin –
-                                    V5, V6, Arabic For All – V2, V3, (Full),
-                                     In grammar - Start with the book ‘‘Al-Aajroomiyyah’ explained by
-                                    Shaikh Uthaimin (RH). This book is perhaps the best explanation of
-                                    Al-Aajrumiyyah. After this book, learn the book, ‘Sharh Qatr an-
-                                    Nada’ by Ibn Hishaam. After that if one likes he may study Alfiyyah
-                                    Ibn Maalik. Another good book to read is ‘Jaami’ Duroos al-
-                                    Arabiyyah’.
-                                     In Sarf - Start with the book “Mizan munshaib, Masadirul afal, ‘Binaa’
-                                    al-Af’aal’. After that, move on to the book, ‘Al-Maqsood’. For more
-                                    advanced study, learn the poem in Sarf entitled, ‘Laamiyah Al-Af’aal’
-                                    by Ibn Maalik.
-                                     In Balaaghah - Start with the book ‘Al-Balaaghah al Muyassara’, ‘Al-
-                                    Balaaghah al-Waadhihah’. After that one may study ‘Uqood az-
-                                    Zimaam’ by as-Suyooti.
+                                        <p className="lead">
+                                            As for an advanced study of Arabic, one must traverse the following path:
+                                            <br/>- In Arabic Language – Qassasul Ambiya, Alarabiyyatu linnashyiin –
+                                            V5, V6, Arabic For All – V2, V3, (Full),
+                                            <br/>- In grammar - Start with the book ‘‘Al-Aajroomiyyah’ explained by
+                                            Shaikh Uthaimin (RH). This book is perhaps the best explanation of
+                                            Al-Aajrumiyyah. After this book, learn the book, ‘Sharh Qatr an-
+                                            Nada’ by Ibn Hishaam. After that if one likes he may study Alfiyyah
+                                            Ibn Maalik. Another good book to read is ‘Jaami’ Duroos al-
+                                            Arabiyyah’.
+                                            <br/>- In Sarf - Start with the book “Mizan munshaib, Masadirul afal, ‘Binaa’
+                                            al-Af’aal’. After that, move on to the book, ‘Al-Maqsood’. For more
+                                            advanced study, learn the poem in Sarf entitled, ‘Laamiyah Al-Af’aal’
+                                            by Ibn Maalik.
+                                            <br/>- In Balaaghah - Start with the book ‘Al-Balaaghah al Muyassara’, ‘Al-
+                                            Balaaghah al-Waadhihah’. After that one may study ‘Uqood az-
+                                            Zimaam’ by as-Suyooti.
+                                        </p>
                                 </div>
                                 </div>
                             </div>

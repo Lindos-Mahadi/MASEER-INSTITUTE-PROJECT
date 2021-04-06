@@ -8,7 +8,7 @@ import GoogleMaps from './maps/GoogleMaps';
 const Contact = () =>{
     return (
         <React.Fragment>
-            <section className="py-5"></section>
+            <section className="py-5 mt-3 contact-section"></section>
                 <section className="contact">
                     <div className="dark">
                         <div className="container">

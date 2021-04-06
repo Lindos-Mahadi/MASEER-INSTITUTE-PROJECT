@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import CardHome from './Card';
-import Box from './CardData/Box';
 import CardLogic from './CardData/CardLogic';
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
 import Typical from "react-typical";
 import AnimateBody from './AnimateCounter/AnimateBody';
 
@@ -27,7 +25,6 @@ if(curDate >= 1 && curDate < 12)
 const Home = () =>{
 
     useEffect(() =>{
-        // AOS.init("{"duration: 2000"}");
         AOS.init();
     }, []);
 
@@ -68,8 +65,6 @@ const Home = () =>{
                     </div>
                 </div>
             </section>
-            
-            {/* <Box /> */}
             <CardHome />
             <CardLogic />
             <AnimateBody />
