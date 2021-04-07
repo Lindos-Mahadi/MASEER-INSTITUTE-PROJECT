@@ -16,7 +16,7 @@ const TopicCard = (props) =>{
 
     return (
         <React.Fragment>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 my-2">
                 <div className="card" data-aos="fade-up" data-aos-duration="500">
                     <div className="card-header">
                         <h5 className="card-title">{props.title}</h5>

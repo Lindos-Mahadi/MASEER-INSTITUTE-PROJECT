@@ -42,7 +42,7 @@ const Box = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 my-2">
                         <div className="card" style={midbox} data-aos="fade-up" data-aos-delay="1000">
                             <div className="card-body">
                                 <p className="lead" style={alignText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto velit veritatis mollitia ducimus, iste porro repellendus ex id quis adipisci. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae non esse a alias officia accusamus?</p>

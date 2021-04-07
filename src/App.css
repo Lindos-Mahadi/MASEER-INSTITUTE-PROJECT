@@ -312,6 +312,10 @@ body {
       margin: 0;
       font-size: 16px;
     }
+    .explorer-section h2{
+      margin-top: 10px;
+      font-size: 20px;
+    }
     #footer-section{
       height: 70vh !important;
     }
@@ -338,6 +342,10 @@ body {
     }
   }
   @media only screen and (max-width: 350px){
+    .explorer-section h2{
+      margin-top: 10px;
+      font-size: 16px;
+    }
     .navbar-nav{
       position: relative;
       top: -15%;
