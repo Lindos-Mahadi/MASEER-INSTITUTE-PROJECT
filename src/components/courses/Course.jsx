@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import styled from "styled-components";
 import {Link} from "react-router-dom";
-// import ReactModal from '../ReactModal';
-import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
 const Course = (props) =>{
 

@@ -1,4 +1,3 @@
-import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 const CourseData=[
     {
         title: "Arabic Language & Quranic Grammar 1st Semester ",

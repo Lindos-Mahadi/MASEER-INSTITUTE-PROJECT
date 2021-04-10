@@ -79,7 +79,7 @@ const CardHome = () =>{
                                     </div>
                             </p>
                         </div>
-                        <div className="col-md-6 topic-img" data-aos="flip-left" data-aos-delay="500">
+                        <div className="col-md-6 mb-3 topic-img" data-aos="flip-left" data-aos-delay="500">
                             <img className="img-fluid float-right" src={imgUrl} alt="img" />
                         </div>
                     </div>
