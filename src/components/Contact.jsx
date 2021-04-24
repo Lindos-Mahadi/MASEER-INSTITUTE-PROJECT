@@ -39,40 +39,23 @@ const Contact = () =>{
                                     <hr/>
                                     <div className="contact-section">
                                         <div className="row">
-                                        <Form action="https://formspree.io/f/info@maseerinstitute.com" method="post">
+                                        <Form action="https://formspree.io/f/xknkgpgy" method="POST">
                                             <Form.Group as={Row} controlId="formPlaintextPassword">
                                                 <Col md="6" sm="12 pb-3">
-                                                    <Form.Control type="text" placeholder="Name *" required />
+                                                    <Form.Control type="text" name="name" placeholder="Name *" required />
                                                 </Col>
                                                 <Col md="6" sm="12">
-                                                    <Form.Control type="text" placeholder="Email *" required />
+                                                    <Form.Control type="text" name="email" name="_replyto" placeholder="Email *" required />
                                                 </Col>
                                                 <Col md="12">
-                                                    <Form.Control type="text" className="my-3" placeholder="Subject *" required />
+                                                    <Form.Control type="text" name="subject" className="my-3" placeholder="Subject *" required />
                                                 </Col>
                                                 <Form.Group controlId="exampleForm">
-                                                    <Form.Control as="textarea" Rows={5} placeholder="Message *" required />
+                                                    <Form.Control as="textarea" name="message" Rows={5} placeholder="Message *" required />
                                                     </Form.Group>
                                                 </Form.Group>
                                                 <Button variant="primary" className="my-2" type="submit">Submit</Button>
                                             </Form>
-                                            {/* <form class="" action="" method="POST">
-                                                <div className="form-group row">
-                                                    <div className="col-md-6 col-sm-12 pb-3">
-                                                        <input className="form-control text-primary" type="text" placeholder="Name *" required />
-                                                    </div>
-                                                    <div className="col-md-6 col-sm-12">
-                                                        <input className="form-control" type="text" placeholder="Email *" required />
-                                                    </div>
-                                                    <div className="col-md-12">
-                                                        <input className="form-control my-3" type="text" placeholder="Email *" required />
-                                                    </div>
-                                                    <div className="form-group">
-                                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                                    </div>
-                                                </div>
-                                                <button className="my-2 btn btn-primary" type="submit">Submit</button>
-                                            </form> */}
                                         </div>
                                     </div>
                                 </div>
