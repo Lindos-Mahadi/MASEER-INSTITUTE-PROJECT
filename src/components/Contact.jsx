@@ -19,12 +19,12 @@ const Contact = () =>{
                                     <hr/>
                                     <div className="row">
                                         <div className="col-12 col-md-6">
-                                        <h4><PhoneEnabledIcon className="mr-4" />Mobile</h4>
+                                        <h4><PhoneEnabledIcon className="mr-4" />Manager Shamim</h4>
                                         <h5 className="ml-5">+8801765-251201</h5>
                                         </div>
 
                                         <div className="col-12 col-md-6">
-                                        <h4><EmailIcon className="mr-4" />Phone</h4>
+                                        <h4><EmailIcon className="mr-4" />Lecturar Mahmud</h4>
                                         <h5 className="ml-5">+8801717-757539</h5>
                                         </div>
                                     </div>

@@ -17,8 +17,8 @@ const Course = () =>{
             <div className="container">
                 <div className="row ">
                     <div className="col-12 text-center py-5">
-                        <h1 data-aos="fade-left" data-aos-duration="1000">Our Popular Courses</h1>
-                        <h3 data-aos="fade-right" data-aos-duration="1000">A modern and Unique style</h3>
+                        {/* <h1 data-aos="fade-left" data-aos-duration="1000">Our Popular Courses</h1>
+                        <h3 data-aos="fade-right" data-aos-duration="1000">A modern and Unique style</h3> */}
                     </div>
                 </div>
             </div>

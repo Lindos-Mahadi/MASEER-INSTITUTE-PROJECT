@@ -10,8 +10,8 @@ const NavbarMenu = () =>{
         <div className="bg-dark fixed-top">
             <div className="row">
                 <div className="col-10 mx-auto">
-                    <Navbar collapseOnSelect expand="lg" text="dark" id="navbar">
-                      <Navbar.Brand href="/"><img className="img-fluid" src={logo} width="60" height="60" /></Navbar.Brand>
+                    <Navbar className="" collapseOnSelect expand="lg" text="dark" id="navbar">
+                      <Navbar.Brand href="/"><img className="img-fluid mas-logo" src={logo} width="60" height="60" alt="" /><span className="domainName">MASEER INSTITUTE</span></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                           <Navbar.Collapse id="responsive-navbar-nav" className="navbar">

@@ -3,6 +3,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "./App.css";
+// import "./Index.scss"
+import "./components/slider/Index.scss"
 import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import Home from "./components/Home";
 import ScrollTop from "./components/ScrollToTop";

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {Link} from "react-router-dom";
+import {Accordion} from 'react-bootstrap';
 
 const TopicCard = (props) =>{
 
@@ -24,6 +25,9 @@ const TopicCard = (props) =>{
                     <img src={props.imgSrc} className="img-fluid" style={{height: "250px"}} alt=""/>
                     <div className="card-body">
                         <p className="card-text">{props.text}</p>
+                        <p className="lead">Here, the word “الْكِتَاب” is ended in three different ways</p>
+                            <div id="demoOne" class="collapse in"> {props.text2} </div>
+                            <a data-toggle="collapse" className="text-decoration-none" data-target="#demoOne" rel="noreferrer">Read More ...</a>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const CardLogic = () =>{
     <React.Fragment>
       <section className="card-logic mt-5 card-image">
           <div className="container">
-            <h3 className="text-uppercase py-3" style={{fontWeight:'bold'}}>Our Course at a glance !</h3>
+            <h3 className="text-uppercase py-3" style={{fontWeight:'bold'}}>Our Courses at a glance !</h3>
             <div className="row ">
                 {
                 CData.map((val, index) => {
@@ -19,6 +19,7 @@ const CardLogic = () =>{
                         title={val.title}
                         imgSrc={val.imgSrc}
                         text={val.text}
+                        text2={val.text2}
                         />
                     );
                 })

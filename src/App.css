@@ -6,38 +6,23 @@
 html{
   box-sizing: border-box;
 }
+img .img-fluid{
+ position: absolute;
+}
+.domainName{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 10px;
+    font-size: 20px;
+}
 body {
-  
   background:  #5D3F6A;
   color: #fff;
 }
+.carousel-item {
+  height: 450px;
+ }
 
-.home{
-  background-image: url("./components/img/home-bg-2.jpg");
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center;
-}
-.dark-overlay {
-  background: rgb(93, 63, 106, 0.9);
-  opacity: 0.6;
-  height: 100vh;
-}
-.header{
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.home-button{
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
 .card-image{
   background-image: url("./components/img/home-bg.jpg");
   background-size: cover;
@@ -121,6 +106,9 @@ body {
   background: #000 !important;
   color: #fff;
 }
+.navbar{
+  padding-bottom: 0.7rem !important;
+}
 .navbar-nav{
   position: relative;
   padding-top: 20px;
@@ -141,7 +129,7 @@ body {
 }
 .nav-item a:hover{
   font-weight: bold;
-  border-bottom: 3px solid #565387;
+  border-bottom: 1px solid #565387;
   background-color: rgb(93, 63, 106, 0.8);
   border-radius: 0 20px 0 20px;
 }
@@ -160,7 +148,11 @@ body {
 /* END OF COUNTER SECTION */
 /* END OF COUNTER SECTION */
 
-
+/* app Slide */
+.appSlide{
+  margin-top: 0px !important;
+  padding-top: 20px !important;
+}
 #footer-section{
   background-image: url("./components/img/footer.jpg");
   height: 55vh;
@@ -204,14 +196,14 @@ body {
 .modal-content{
   background-color: rgb(93, 63, 106, 0.8);
 }
-.enrollCourse{
+/* .enrollCourse{
   background-color: rgb(93, 63, 106, 0.6);
   padding: 10px;
   border-radius: 5px;
 }
 .enroll-course .modal-content{
   background-color: black;
-}
+} */
 .card-header{
   padding: 15px 10px;
   text-align: center;
@@ -239,6 +231,20 @@ body {
 }
 
   @media only screen and (max-width: 991px) {
+    .navbar{
+      padding-bottom: 1rem !important;
+    }
+    .domainName{
+      position: absolute;
+      top: 48px;
+      left: -20px;
+      font-size: 10px;
+    }
+    /* app Slide */
+    .appSlide{
+      margin-top: 0px !important;
+      padding-top: 5px !important;
+    }
     .contact-section {
       margin-top: -2px !important;
   }

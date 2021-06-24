@@ -8,12 +8,50 @@ const Notice=()=> {
             <section className="py-3">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
-                            <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt lorem sit amet velit tempor, a blandit neque elementum. Aenean rutrum sit amet justo quis vulputate. Morbi dapibus dolor nec lacinia tempus. Ut finibus libero sem, eget cursus risus elementum a. Phasellus congue risus in elit consequat eleifend quis nec turpis. Duis in diam mauris. Morbi pretium quis nisl vel semper. Sed eros orci, aliquam ut hendrerit eleifend, ornare et ipsum. Donec fringilla, magna sit amet pulvinar congue, purus tortor imperdiet ipsum, id pulvinar odio odio at lectus. Praesent ornare est et molestie ultricies. Nunc et tristique justo. Cras molestie sapien purus, id condimentum orci luctus ac. Donec finibus maximus felis, nec feugiat risus suscipit eget. Suspendisse tincidunt nunc vel mattis fermentum. Mauris sit amet sagittis quam. Duis ac ipsum sem. </p>
-                            <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt lorem sit amet velit tempor, a blandit neque elementum. Aenean rutrum sit amet justo quis vulputate. Morbi dapibus dolor nec lacinia tempus. Ut finibus libero sem, eget cursus risus elementum a. Phasellus congue risus in elit consequat eleifend quis nec turpis. Duis in diam mauris. Morbi pretium quis nisl vel semper. Sed eros orci, aliquam ut hendrerit eleifend, ornare et ipsum. Donec fringilla, magna sit amet pulvinar congue, purus tortor imperdiet ipsum, id pulvinar odio odio at lectus. Praesent ornare est et molestie ultricies. Nunc et tristique justo. Cras molestie sapien purus, id condimentum orci luctus ac. Donec finibus maximus felis, nec feugiat risus suscipit eget. Suspendisse tincidunt nunc vel mattis fermentum. Mauris sit amet sagittis quam. Duis ac ipsum sem. </p>
-                            
-                        </div>
-                        
+                        <table class="table table-striped table-hover table-bordered table-bordered-right">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Re. No.</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Class Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>img elements must have an alt prop, either with meaningful text, or an empty string for decorative images
+                                    img elements must have an alt prop, either with meaningful text, or an empty string for decorative images
+                                    img elements must have an alt prop, either with meaningful text, or an empty string for decorative images
+                                    </td>
+                                    <td>
+                                        <a href="https://facebook.com" target="_blank">Friday</a> 
+                                    </td>
+                                    <td>
+                                        5pm - 8:50 pm
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>
+                                    <a href="https://facebook.com" target="Sunday">Friday</a> 
+                                    </td>
+                                    <td>
+                                        5pm - 8:50 pm
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>

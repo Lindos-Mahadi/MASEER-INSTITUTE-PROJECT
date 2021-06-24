@@ -43,17 +43,13 @@ const CardHome = () =>{
                                 I. Nahw: It is most often translated as ‘grammar’. Nahw is a study of the
                                 language and the various rules governing the words as they appear in a
                                 sentence. I will now mention three sentences, please pay close attention.
-                                I. الْكِتَابُ جَدِيْدٌ The book is new
-                                II. يَقْرَأُ أَحْمَدُ الْكِتَابَ Ahmad is reading the book
-                                III.
-
-                                يَقْرَأُ أَحْمَدُ الْقِصَّةَ مِنَ الْكِتَابِ Ahmad is reading the story from
-                                the book.
+                                <p className="lead"> I. الْكِتَابُ جَدِيْدٌ The book is new </p>
+                                <p className="lead">II. يَقْرَأُ أَحْمَدُ الْكِتَابَ Ahmad is reading the book</p>
+                                <p className="lead">III. يَقْرَأُ أَحْمَدُ الْقِصَّةَ مِنَ الْكِتَابِ Ahmad is reading the story from the book.</p>
                                 Here, the word “الْكِتَاب” is ended in three different ways –
-                                1. “الْكِتَابُ” with dammah over the letter “ba”
-                                2. الْكِتَابَ with fath’ha over the letter “ba”
-                                3. الْكِتَابِ with kasra under the letter “ba”
-                                    <a data-toggle="collapse" className="text-decoration-none" data-target="#demo">Read More ...</a>
+                                <p className="lead">1. “الْكِتَابُ” with dammah over the letter “ba”</p>
+                                <p className="lead">2. الْكِتَابَ with fath’ha over the letter “ba”</p>
+                                <p className="lead">3. الْكِتَابِ with kasra under the letter “ba”</p>
                                     <div id="demo" class="collapse in">
                                         These three ending criteria provide different meanings in the sentences.
 
@@ -64,10 +60,10 @@ const CardHome = () =>{
                                         and that which derives from them. This change is done to stretch the
                                         meaning and to also make pronunciation easy upon the tongue.
 
-                                        I. نَصْرٌ Helping, to help
-                                        II. نَصَرَ – يَنْصُرُ He helped, He helps
-                                        III. نَصَرَ – يَنْصُرُ = نَاصِرٌ Who is helper
-                                        IV. نُصِرَ – يُنْصُرُ = مَنْصُوْرٌ Who is helped
+                                        <p className="lead">I. نَصْرٌ Helping, to help</p>
+                                        <p className="lead">II. نَصَرَ – يَنْصُرُ He helped, He helps</p>
+                                        <p className="lead">III. نَصَرَ – يَنْصُرُ = نَاصِرٌ Who is helper</p>
+                                        <p className="lead">IV. نُصِرَ – يُنْصُرُ = مَنْصُوْرٌ Who is helped</p>
 
                                         In simple words, sarf is the science of internal changes in Arabic words
                                         manipulating the original meaning
@@ -77,6 +73,8 @@ const CardHome = () =>{
                                         their different usage. Balaaghah is essential in fully understanding the
                                         Tafseer and I’jaaz (miraculous) nature of the Quran.
                                     </div>
+                                    <a data-toggle="collapse" className="text-decoration-none" data-target="#demo" rel="noreferrer">Read More ...</a>
+
                             </p>
                         </div>
                         <div className="col-md-6 mb-3 topic-img" data-aos="flip-left" data-aos-delay="500">
